@@ -1,4 +1,4 @@
-# Non-GPS-UAV-Localization-with-AdaptiveVIO
+# GPS-Denied-Localization-for-UAVs-with-AdaptiveVIO
 ## Overview
 
 ## Preparing the video files
