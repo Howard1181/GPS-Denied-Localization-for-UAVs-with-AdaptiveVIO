@@ -1,6 +1,7 @@
 # GPS-Denied-Localization-for-UAVs-with-AdaptiveVIO
 ## Overview
-This is a Matlab simulation for UAVs localization in non-GPS enviroment using EKF-based Visual Inertial Odometry and KAZE Feature Matching.
+This repository contains a MATLAB simulation for UAV localization in GPS-denied environments.
+It integrates EKF-based Visual-Inertial Odometry (VIO) with KAZE feature matching to estimate the UAV's position using camera and IMU data.
 
 ## Preparing the video files
 1. Download the necessary video files. link: [https://drive.google.com/drive/folders/1FuaIbYU12y2oGX5H3gWTvEByoMPDmIbk?usp=drive_link]
