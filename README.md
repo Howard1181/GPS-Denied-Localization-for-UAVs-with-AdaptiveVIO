@@ -13,3 +13,13 @@ It integrates EKF-based Visual-Inertial Odometry (VIO) with KAZE feature matchin
 - Toolboxes:
   - Image Processing Toolbox
   - Computer Vision Toolbox
+
+## Getting Started
+### 1. Clone the Repository
+```
+bash
+git clone https://github.com/Howard1181/GPS-Denied-UAV-Localization-Using-Feature-Matching_Matlab
+cd GPS-Denied-UAV-Localization-Using-Feature-Matching_Matlab
+```
+### 2. Open Matlab
+### 3. Run the Simulation
