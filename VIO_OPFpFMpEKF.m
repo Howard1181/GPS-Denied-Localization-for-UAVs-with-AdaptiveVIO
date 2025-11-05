@@ -349,7 +349,7 @@ while hasFrame(videoReader)
             % 全局特徵匹配校正光流累積誤差
             [uav_p_map, inlierRatio, meanError, confidence, rotation] = kazeFeatureMatching_fcn([uav_p_mapx,uav_p_mapy], grayFrame2, yaw, pitch, roll, flightRecord{tableIdx,4});
             % 若特徵匹配計算出來的距離與光流估算的位置差太多則不接受
-            if sqrt( (X(1)-uav_p_map(1))^2 + (X(2)-uav_p_map(2))^2 ) < 100 || abs(rotation) > 45
+            if sqrt( (X(1)-uav_p_map(1))^2 + (X(2)-uav_p_map(2))^2 ) < 100 && abs(rotation) < 45
                 % 動態融合
                 epsilon = 1e-3;
                 conf_feat = inlierRatio / (meanError/100 + epsilon);
